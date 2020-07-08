@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rescaler
+Version: 0.0.1
+Summary: This package transforms the features by scaling each feature to a given range(0 to 1)
+Home-page: https://github.com/geekquad/Feature-Scaling
+Author: Aditya Kumar Gupta
+Author-email: adityaastranait@gmail.com
+License: UNKNOWN
+Description: # feature_scaler
+        A module that can transform features by scaling each feature to a given range. The input should be (input_list, new_min_value, new_max_value). 
+        This is more light weight and easy to use than sklearn.preprocessing.MinMaxScaler. This package can simply and quickly rescale each element of the input list into a new value within the range, and generate a new list.
+        
+        * `input_list` A list.
+        * `newmin` The minimum value of the new scale.
+        * `newmax` The maximum value of the new scale.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
